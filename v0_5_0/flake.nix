@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-strunicode-v0_5_0.flake = false;
+  inputs.src-strunicode-v0_5_0.ref   = "refs/tags/v0.5.0";
   inputs.src-strunicode-v0_5_0.owner = "nitely";
-  inputs.src-strunicode-v0_5_0.ref   = "v0_5_0";
   inputs.src-strunicode-v0_5_0.repo  = "nim-strunicode";
   inputs.src-strunicode-v0_5_0.type  = "github";
   

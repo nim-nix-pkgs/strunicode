@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-strunicode-master.flake = false;
+  inputs.src-strunicode-master.ref   = "refs/heads/master";
   inputs.src-strunicode-master.owner = "nitely";
-  inputs.src-strunicode-master.ref   = "master";
   inputs.src-strunicode-master.repo  = "nim-strunicode";
   inputs.src-strunicode-master.type  = "github";
   
